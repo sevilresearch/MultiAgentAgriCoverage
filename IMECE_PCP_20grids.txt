@@ -1,0 +1,408 @@
+isr-lab@ISR-LAB-07:~/Bhaavin/EEE6772/Project3_LP$ python3 main.py 
+
+--- run 1 ---
+/home/isr-lab/.local/lib/python3.8/site-packages/matplotlib/backends/backend_agg.py:240: RuntimeWarning: Glyph 108 missing from current font.
+  font.set_text(s, 0.0, flags=flags)
+/home/isr-lab/.local/lib/python3.8/site-packages/matplotlib/backends/backend_agg.py:240: RuntimeWarning: Glyph 112 missing from current font.
+  font.set_text(s, 0.0, flags=flags)
+[SIM] Grid fully explored. All agents completed final tasks.
+sim_time_while_loop: '322.00' units
+Agent 1 (blue) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 2 (yellow) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 3 (purple) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Time taken for Run 1: 248.86 seconds
+Sim time: '32.20' units
+Sim speed: 0.1294 steps/sec
+Explored: 100.00% of the grid
+
+--- run 2 ---
+[SIM] Grid fully explored. All agents completed final tasks.
+sim_time_while_loop: '324.00' units
+Agent 1 (blue) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 2 (yellow) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 3 (purple) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Time taken for Run 2: 248.50 seconds
+Sim time: '32.40' units
+Sim speed: 0.1304 steps/sec
+Explored: 100.00% of the grid
+
+--- run 3 ---
+[SIM] Grid fully explored. All agents completed final tasks.
+sim_time_while_loop: '346.00' units
+Agent 1 (blue) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 2 (yellow) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 3 (purple) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Time taken for Run 3: 261.70 seconds
+Sim time: '34.60' units
+Sim speed: 0.1322 steps/sec
+Explored: 100.00% of the grid
+
+--- run 4 ---
+[SIM] Grid fully explored. All agents completed final tasks.
+sim_time_while_loop: '301.00' units
+Agent 1 (blue) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 2 (yellow) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 3 (purple) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Time taken for Run 4: 233.84 seconds
+Sim time: '30.10' units
+Sim speed: 0.1287 steps/sec
+Explored: 100.00% of the grid
+
+--- run 5 ---
+[SIM] Grid fully explored. All agents completed final tasks.
+sim_time_while_loop: '287.00' units
+Agent 1 (blue) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 2 (yellow) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 3 (purple) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Time taken for Run 5: 223.47 seconds
+Sim time: '28.70' units
+Sim speed: 0.1284 steps/sec
+Explored: 100.00% of the grid
+
+--- run 6 ---
+[SIM] Grid fully explored. All agents completed final tasks.
+sim_time_while_loop: '354.00' units
+Agent 1 (blue) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 2 (yellow) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 3 (purple) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Time taken for Run 6: 264.49 seconds
+Sim time: '35.40' units
+Sim speed: 0.1338 steps/sec
+Explored: 100.00% of the grid
+
+--- run 7 ---
+
+[SIM] Grid fully explored. All agents completed final tasks.
+sim_time_while_loop: '376.00' units
+Agent 1 (blue) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 2 (yellow) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 3 (purple) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Time taken for Run 1: 284.52 seconds
+Sim time: '37.60' units
+Sim speed: 0.1322 steps/sec
+Explored: 100.00% of the grid
+
+
+--- run 8 ---
+[SIM] Grid fully explored. All agents completed final tasks.
+sim_time_while_loop: '325.00' units
+Agent 1 (blue) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 2 (yellow) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 3 (purple) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Time taken for Run 8: 247.94 seconds
+Sim time: '32.50' units
+Sim speed: 0.1311 steps/sec
+Explored: 100.00% of the grid
+
+--- run 9 ---
+[SIM] Grid fully explored. All agents completed final tasks.
+sim_time_while_loop: '319.00' units
+Agent 1 (blue) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 2 (yellow) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 3 (purple) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Time taken for Run 9: 241.80 seconds
+Sim time: '31.90' units
+Sim speed: 0.1319 steps/sec
+Explored: 100.00% of the grid
+
+--- run 10 ---
+[SIM] Grid fully explored. All agents completed final tasks.
+sim_time_while_loop: '327.00' units
+Agent 1 (blue) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 2 (yellow) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 3 (purple) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Time taken for Run 10: 247.40 seconds
+Sim time: '32.70' units
+Sim speed: 0.1322 steps/sec
+Explored: 100.00% of the grid
+
+--- run 11 ---
+[SIM] Grid fully explored. All agents completed final tasks.
+sim_time_while_loop: '316.00' units
+Agent 1 (blue) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 2 (yellow) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 3 (purple) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Time taken for Run 11: 243.59 seconds
+Sim time: '31.60' units
+Sim speed: 0.1297 steps/sec
+Explored: 100.00% of the grid
+
+--- run 12 ---
+[SIM] Grid fully explored. All agents completed final tasks.
+sim_time_while_loop: '293.00' units
+Agent 1 (blue) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 2 (yellow) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 3 (purple) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Time taken for Run 12: 226.20 seconds
+Sim time: '29.30' units
+Sim speed: 0.1295 steps/sec
+Explored: 100.00% of the grid
+
+--- run 13 ---
+[SIM] Grid fully explored. All agents completed final tasks.
+sim_time_while_loop: '342.00' units
+Agent 1 (blue) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 2 (yellow) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 3 (purple) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Time taken for Run 13: 261.20 seconds
+Sim time: '34.20' units
+Sim speed: 0.1309 steps/sec
+Explored: 100.00% of the grid
+
+--- run 14 ---
+[SIM] Grid fully explored. All agents completed final tasks.
+sim_time_while_loop: '349.00' units
+Agent 1 (blue) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 2 (yellow) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 3 (purple) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Time taken for Run 14: 264.57 seconds
+Sim time: '34.90' units
+Sim speed: 0.1319 steps/sec
+Explored: 100.00% of the grid
+
+--- run 15 ---
+[SIM] Grid fully explored. All agents completed final tasks.
+sim_time_while_loop: '310.00' units
+Agent 1 (blue) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 2 (yellow) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 3 (purple) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Time taken for Run 15: 240.51 seconds
+Sim time: '31.00' units
+Sim speed: 0.1289 steps/sec
+Explored: 100.00% of the grid
+
+--- run 16 ---
+[SIM] Grid fully explored. All agents completed final tasks.
+sim_time_while_loop: '326.00' units
+Agent 1 (blue) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 2 (yellow) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 3 (purple) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Time taken for Run 16: 249.42 seconds
+Sim time: '32.60' units
+Sim speed: 0.1307 steps/sec
+Explored: 100.00% of the grid
+
+--- run 17 ---
+[SIM] Grid fully explored. All agents completed final tasks.
+sim_time_while_loop: '259.00' units
+Agent 1 (blue) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 2 (yellow) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 3 (purple) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Time taken for Run 17: 201.43 seconds
+Sim time: '25.90' units
+Sim speed: 0.1286 steps/sec
+Explored: 100.00% of the grid
+
+--- run 18 ---
+[SIM] Grid fully explored. All agents completed final tasks.
+sim_time_while_loop: '305.00' units
+Agent 1 (blue) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 2 (yellow) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 3 (purple) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Time taken for Run 18: 235.89 seconds
+Sim time: '30.50' units
+Sim speed: 0.1293 steps/sec
+Explored: 100.00% of the grid
+
+--- run 19 ---
+[SIM] Grid fully explored. All agents completed final tasks.
+sim_time_while_loop: '349.00' units
+Agent 1 (blue) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 2 (yellow) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 3 (purple) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Time taken for Run 19: 262.31 seconds
+Sim time: '34.90' units
+Sim speed: 0.1331 steps/sec
+Explored: 100.00% of the grid
+
+--- run 20 ---
+[SIM] Grid fully explored. All agents completed final tasks.
+sim_time_while_loop: '352.00' units
+Agent 1 (blue) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 2 (yellow) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Agent 3 (purple) stats:
+  Total cells travelled: 43
+  Total revisits: 0
+  Percentage of revisited cells: 0.00%
+Time taken for Run 20: 263.69 seconds
+Sim time: '35.20' units
+Sim speed: 0.1335 steps/sec
+Explored: 100.00% of the grid
+isr-lab@ISR-LAB-07:~/Bhaavin/EEE6772/Project3_LP$ 
