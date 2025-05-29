@@ -10,7 +10,7 @@ This simulation demonstrates decentralized behavior planning for multi-agent rob
 
 - **Local perception and decision-making**
 - **Dynamic helper logic for idle agents**
-- **A* rerouting in the presence of obstacles**
+- **A\* path planning to reroute agents around blocked paths**
 - **Preassigned vs. Local planner comparisons**
 - **Agent freezing and fault tolerance analysis**
 
@@ -68,7 +68,7 @@ assets:
 ├── rerouting/               # Diagrams of reroute behavior
 ├── startposdiff/            # Grid variations and experiments
 
-📁 others:
+others:
 ├── __pycache__/             # Python cache files
 ```
 
