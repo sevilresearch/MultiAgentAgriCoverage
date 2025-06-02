@@ -26,6 +26,49 @@ Comparison of our decentralized local planner behavior vs. fixed preassigned col
 
 ---
 
+## 📽️ Visual Demonstrations
+
+This section presents key simulation behaviors from our multi-agent farm coverage system using animated GIFs. These visuals demonstrate planner logic, fault tolerance, and system scalability.
+
+---
+
+### 🔀 Planner Behavior Comparison
+
+| **Local Planner (LP)** | **Preassigned Column Planner (PCP)** |
+|------------------------|--------------------------------------|
+| ![Local Planner](./GIFs/3_agent_15x7.gif) | ![PCP Planner](./GIFs/PCP.gif) |
+| Agents dynamically choose unexplored columns, reroute, and assist others once done. | Agents follow fixed column assignments, offering structure but reduced flexibility. |
+
+---
+
+### 🧊 Agent Failure and Recovery
+
+| **1 Agent Breakdown in LP** | **1 Agent Breakdown in PCP** |
+|-----------------------------|-------------------------------|
+| ![LP Breakdown](./GIFs/1agentfrozen.png) | ![PCP Breakdown](./GIFs/2agentfrozen.png) |
+| Idle agents detect failure and cover abandoned areas. | Remaining agents stick to their own zones, missing failed agent’s area. |
+
+---
+
+### 📈 Scalability Analysis (LP)
+
+| **1 Agent** | **2 Agents** | **4 Agents** | **7 Agents** |
+|-------------|--------------|--------------|--------------|
+| ![1 Agent](./GIFs/1_agent_15x7.gif) | ![2 Agents](./GIFs/2agents.gif) | ![4 Agents](./GIFs/4agents.gif) | ![7 Agents](./GIFs/7agents.gif) |
+
+---
+
+### 🧭 Spatial Distribution Start – LP
+
+| **3 Agents from Separate Start Zones** |
+|----------------------------------------|
+| ![Spawn Variation](./GIFs/3agents_diffstart.gif) |
+| Demonstrates LP’s ability to adapt to spatially distributed deployment scenarios. |
+
+---
+
+>  _All demos run on a 15x7 farm grid with varied initial conditions and planner configurations._
+
 ## Quick Start
 
 ### 1. Clone this repository
