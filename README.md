@@ -36,7 +36,7 @@ This section presents key simulation behaviors from our multi-agent farm coverag
 
 | **Local Planner (LP)** | **Preassigned Column Planner (PCP)** |
 |------------------------|--------------------------------------|
-| ![Local Planner](./GIFs/3_agent_15x7.gif) | ![PCP Planner](./GIFs/PCP.gif) |
+| ![Local Planner](./GIFs/normal.gif) | ![PCP Planner](./GIFs/preassignedcols.gif) |
 | Agents dynamically choose unexplored columns, reroute, and assist others once done. | Agents follow fixed column assignments, offering structure but reduced flexibility. |
 
 ---
@@ -45,7 +45,7 @@ This section presents key simulation behaviors from our multi-agent farm coverag
 
 | **1 Agent Breakdown in LP** | **1 Agent Breakdown in PCP** |
 |-----------------------------|-------------------------------|
-| ![LP Breakdown](./GIFs/1agentfrozen.png) | ![PCP Breakdown](./GIFs/2agentfrozen.png) |
+| ![LP Breakdown](./GIFs/3_agents_at_000_with_trail_and_purple_frozen.gif) | ![PCP Breakdown](./GIFs/2agentfrozen.png) |
 | Idle agents detect failure and cover abandoned areas. | Remaining agents stick to their own zones, missing failed agent’s area. |
 
 ---
@@ -54,7 +54,7 @@ This section presents key simulation behaviors from our multi-agent farm coverag
 
 | **1 Agent** | **2 Agents** | **4 Agents** | **7 Agents** |
 |-------------|--------------|--------------|--------------|
-| ![1 Agent](./GIFs/1_agent_15x7.gif) | ![2 Agents](./GIFs/2agents.gif) | ![4 Agents](./GIFs/4agents.gif) | ![7 Agents](./GIFs/7agents.gif) |
+| ![1 Agent](./GIFs/1_agent_15x7.gif) | ![2 Agents](./GIFs/2_agents_in_8x5.gif) | ![4 Agents](./GIFs/4_agents_in_6x6.gif) | ![7 Agents](./GIFs/7_agents_in_7x9.gif) |
 
 ---
 
@@ -62,7 +62,7 @@ This section presents key simulation behaviors from our multi-agent farm coverag
 
 | **3 Agents from Separate Start Zones** |
 |----------------------------------------|
-| ![Spawn Variation](./GIFs/3agents_diffstart.gif) |
+| ![Spawn Variation](./GIFs/3_agents_and_outward_sweep.gif) |
 | Demonstrates LP’s ability to adapt to spatially distributed deployment scenarios. |
 
 ---
