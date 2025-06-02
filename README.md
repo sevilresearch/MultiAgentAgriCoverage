@@ -61,8 +61,6 @@ This section presents key simulation behaviors from our multi-agent farm coverag
 
 ---
 
->  _All demos run on a 15x7 farm grid with varied initial conditions and planner configurations._
-
 ## Quick Start
 
 ### 1. Clone this repository
