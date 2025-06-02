@@ -16,6 +16,16 @@ This simulation demonstrates decentralized behavior planning for multi-agent rob
 
 ---
 
+## Visual Demos
+
+| **Local Planner (LP)** | **Predefined Columns Planner (PCP)** |
+|------------------------|--------------------------------------|
+| ![3 Agent LP](GIFs/3_agent_15x7.gif) | ![PCP Planner](GIFs/PCP.gif) |
+
+<sub>Comparison of decentralized LP behavior vs. fixed preassigned column strategy in a 15×7 farm grid.</sub>
+
+---
+
 ## Quick Start
 
 ### 1. Clone this repository
