@@ -42,9 +42,13 @@ This section presents key simulation behaviors from our multi-agent farm coverag
 
 ### Scalability Analysis (LP)
 
-| **1 Agent** | **2 Agents** | **4 Agents** | **7 Agents** |
-|-------------|--------------|--------------|--------------|
-| ![1 Agent](./GIFs/1_agent_15x7.gif) | ![2 Agents](./GIFs/2_agents_in_8x5.gif) | ![4 Agents](./GIFs/4_agents_in_6x6.gif) | ![7 Agents](./GIFs/7_agents_in_7x9.gif) |
+| **1 Agent** | **2 Agents** |
+|-------------|--------------|
+| ![1 Agent](./GIFs/1_agent_15x7.gif) | ![2 Agents](./GIFs/2_agents_in_8x5.gif) |
+
+| **4 Agents** | **7 Agents** |
+|--------------|--------------|
+| ![4 Agents](./GIFs/4_agents_in_6x6.gif) | ![7 Agents](./GIFs/7_agents_in_7x9.gif) |
 
 ---
 
