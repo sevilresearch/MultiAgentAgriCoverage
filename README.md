@@ -16,23 +16,13 @@ This simulation demonstrates decentralized behavior planning for multi-agent rob
 
 ---
 
-## Visual Demos
-
-| **Local Planner** | **Predefined Columns Planner** |
-|------------------------|--------------------------------------|
-| ![3 Agent LP](./GIFs/3_agent_15x7.gif) | ![PCP Planner](./GIFs/PCP.gif) |
-
-Comparison of our decentralized local planner behavior vs. fixed preassigned column strategy in a 15×7 farm grid.
-
----
-
-## 📽️ Visual Demonstrations
+## Visual Demonstrations
 
 This section presents key simulation behaviors from our multi-agent farm coverage system using animated GIFs. These visuals demonstrate planner logic, fault tolerance, and system scalability.
 
 ---
 
-### 🔀 Planner Behavior Comparison
+### Planner Behavior Comparison
 
 | **Local Planner (LP)** | **Preassigned Column Planner (PCP)** |
 |------------------------|--------------------------------------|
@@ -41,7 +31,7 @@ This section presents key simulation behaviors from our multi-agent farm coverag
 
 ---
 
-### 🧊 Agent Failure and Recovery
+### Agent Failure and Recovery
 
 | **1 Agent Breakdown in LP** | **1 Agent Breakdown in PCP** |
 |-----------------------------|-------------------------------|
@@ -50,7 +40,7 @@ This section presents key simulation behaviors from our multi-agent farm coverag
 
 ---
 
-### 📈 Scalability Analysis (LP)
+### Scalability Analysis (LP)
 
 | **1 Agent** | **2 Agents** | **4 Agents** | **7 Agents** |
 |-------------|--------------|--------------|--------------|
@@ -58,7 +48,7 @@ This section presents key simulation behaviors from our multi-agent farm coverag
 
 ---
 
-### 🧭 Spatial Distribution Start – LP
+### Spatial Distribution Start – LP
 
 | **3 Agents from Separate Start Zones** |
 |----------------------------------------|
