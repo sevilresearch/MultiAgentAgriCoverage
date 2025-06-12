@@ -33,10 +33,10 @@ This section presents key simulation behaviors from our multi-agent farm coverag
 
 ### Agent Failure and Recovery
 
-| **1 Agent Breakdown in LP** | **1 Agent Breakdown in PCP** |
-|-----------------------------|-------------------------------|
-| ![LP Breakdown](./GIFs/3_agents_at_000_with_trail_and_purple_frozen.gif) | ![PCP Breakdown](./GIFs/2agentfrozen.png) |
-| Idle agents detect failure and cover abandoned areas. | Remaining agents stick to their own zones, missing failed agent’s area. |
+| **1 Agent Breakdown in LP** |
+|-----------------------------|
+| ![LP Breakdown](./GIFs/3_agents_at_000_with_trail_and_purple_frozen.gif) |
+| Idle agents detect failure and cover abandoned areas. |
 
 ---
 
