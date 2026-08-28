@@ -4,6 +4,15 @@ This repository contains the simulation framework and analysis code for:
 **"Multi-Agent Coverage for Agricultural Robotics-Based Soil and Crops Monitoring"**  
 Designed and implemented by [Bhaavin Jogeshwar](mailto:bj83@students.uwf.edu)
 
+## ROS 2 Multi-Robot Simulation
+
+### Coverage with Static Obstacles
+
+[View simulation video](ROS2_Videos/static_obstacles.mp4)
+
+This simulation demonstrates coordinated coverage by three independently operating rovers in the presence of two static in-row obstacles.
+
+
 ## Project Overview
 
 This simulation demonstrates decentralized behavior planning for multi-agent robotic systems performing planting and watering tasks in a constrained farm grid. It features:
