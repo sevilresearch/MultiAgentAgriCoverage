@@ -8,7 +8,7 @@ Designed and implemented by [Bhaavin Jogeshwar](mailto:bj83@students.uwf.edu)
 
 ### Coverage with Static Obstacles
 
-[View simulation video](ROS2_Videos/static_obstacles.mp4)
+[View simulation video](ROS2_Videos/Two_static_obstacles.mp4)
 
 This simulation demonstrates coordinated coverage by three independently operating rovers in the presence of two static in-row obstacles.
 
