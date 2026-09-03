@@ -61,6 +61,8 @@ Three scenarios were evaluated.
 
 ### 1. Nominal Operation
 
+![Nominal Operation](ROS2_GIFs/Nominal_operation.gif)
+
 [View simulation video](ROS2_Videos/Nominal_operation.mp4)
 
 Three rovers perform coordinated coverage under nominal conditions. The simulation demonstrates distributed row selection, robot-conflict resolution, and helper behavior for completing remaining coverage.
@@ -71,6 +73,8 @@ Three rovers perform coordinated coverage under nominal conditions. The simulati
 
 ### 2. Two Static In-Row Obstacles
 
+![Two Static Obstacles](ROS2_GIFs/Two_static_obstacles.gif)
+
 [View simulation video](ROS2_Videos/Two_static_obstacles.mp4)
 
 Two static obstacles are introduced within crop rows. When a rover detects an obstruction, it retreats from the row and defers the remaining assignment. The row can later be approached from the opposite headland so that reachable waypoints remain covered.
@@ -80,6 +84,8 @@ Two static obstacles are introduced within crop rows. When a rover detects an ob
 ---
 
 ### 3. Mid-Row Rover Failure
+
+![Rover Failure](ROS2_GIFs/Rover_failure.gif)
 
 [View simulation video](ROS2_Videos/Rover_failure.mp4)
 
