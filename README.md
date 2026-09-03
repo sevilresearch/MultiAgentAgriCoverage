@@ -99,18 +99,7 @@ One rover is intentionally stopped while operating inside a crop row. Its active
 
 These simulations demonstrate the progression of MACP from a discrete multi-agent coverage framework toward execution by independently navigating agricultural rovers.
 
----
 
-
-
-
-## ROS 2 Multi-Robot Simulation
-
-### Coverage with Static Obstacles
-
-[View simulation video](ROS2_Videos/Two_static_obstacles.mp4)
-
-This simulation demonstrates coordinated coverage by three independently operating rovers in the presence of two static in-row obstacles.
 
 
 ## Project Overview
