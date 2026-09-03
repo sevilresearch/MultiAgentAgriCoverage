@@ -4,6 +4,106 @@ This repository contains the simulation framework and analysis code for:
 **"Multi-Agent Coverage for Agricultural Robotics-Based Soil and Crops Monitoring"**  
 Designed and implemented by [Bhaavin Jogeshwar](mailto:bj83@students.uwf.edu)
 
+
+## ROS 2 Multi-Robot Extension
+
+The original **Multi-Agent Coverage Planning (MACP)** framework in this repository was developed using a discrete agricultural grid representation. In subsequent work, MACP was extended toward robotic execution using three independently operating ROS 2-based simulated rovers, each running its own Nav2 navigation stack.
+
+This robotic implementation is presented in:
+
+**"Toward Deployable Multi-Agent Coverage Planning through Physics-Based Simulation for Agricultural Robotics"**
+
+The extension preserves the original MACP coverage strategy with decentralized row selection, helper behavior, rerouting, and recovery of unfinished work, while addressing coordination and navigation challenges that arise when independently operating robots execute the algorithm in a physics-based environment.
+
+### Challenges Introduced by Robotic Execution
+
+The original discrete MACP formulation assumes simplified agent motion and state updates. When the agents are replaced by independently navigating rovers, several additional execution challenges arise.
+
+![Challenges introduced by independently navigating rovers](ROS2_Figures/Fig1b_RoboticExecutionChallenges.png)
+
+**Fig. 1b — Challenges introduced by independently navigating rovers.**
+
+These include:
+
+1. **Independent local state** — each rover maintains its own local information and receives team progress through shared messages.
+2. **Concurrent row selection** — multiple rovers can make coverage decisions simultaneously.
+3. **Physical robot conflict** — rovers can block one another while navigating.
+4. **Field obstruction** — obstacles may prevent traversal of part of a crop row.
+5. **No cross-row shortcuts** — transitions between crop rows must occur through the headlands to avoid crossing plants.
+6. **Continuous motion** — robots physically navigate between GPS-defined waypoints rather than moving instantaneously between grid cells.
+7. **Stale obstacle footprint** — another rover may temporarily remain represented as an obstacle after leaving an area.
+8. **Robot failure / freeze** — unfinished work must be released and recovered when a rover becomes unavailable.
+
+### Mechanisms Added for Robotic Execution
+
+To address the challenges above, the ROS 2 implementation introduces the following mechanisms:
+
+| Mechanism | Purpose |
+| --- | --- |
+| **Distributed state exchange** | Shares visited waypoints, row claims, and rover status among independently operating robots. |
+| **Row claim & ownership** | Prevents multiple rovers from simultaneously committing to the same crop row while allowing unfinished work to be recovered. |
+| **Goal revalidation** | Cancels or replans goals that become obsolete as the shared mission state changes. |
+| **Headland-constrained routing** | Restricts transitions between crop rows to the open headlands rather than allowing cross-row shortcuts. |
+| **Robot right-of-way** | Resolves temporary conflicts when two rovers attempt to occupy or traverse the same region. |
+| **Robot vs. obstacle handling** | Distinguishes temporary blockage caused by another rover from an environmental obstruction. |
+| **Obstacle recovery** | Retreats from an obstructed row, defers the assignment, retries from the opposite side, and isolates only the unreachable portion when necessary. |
+| **Failure-triggered work release** | Releases unfinished coverage after a failed rover's row claim expires so another rover can complete the work. |
+
+These mechanisms provide the transition from the original grid-based MACP formulation to independently navigating multi-robot execution in ROS 2.
+
+---
+
+## Three-Rover Physics-Based Simulations
+
+The ROS 2 implementation was evaluated using **three independently operating rovers**, **14 traversable crop rows**, and **98 GPS-defined mission waypoints**.
+
+Three scenarios were evaluated.
+
+### 1. Nominal Operation
+
+[View simulation video](ROS2_Videos/Nominal_operation.mp4)
+
+Three rovers perform coordinated coverage under nominal conditions. The simulation demonstrates distributed row selection, robot-conflict resolution, and helper behavior for completing remaining coverage.
+
+**Result:** 98/98 mission waypoints visited.
+
+---
+
+### 2. Two Static In-Row Obstacles
+
+[View simulation video](ROS2_Videos/Two_static_obstacles.mp4)
+
+Two static obstacles are introduced within crop rows. When a rover detects an obstruction, it retreats from the row and defers the remaining assignment. The row can later be approached from the opposite headland so that reachable waypoints remain covered.
+
+**Result:** 96 waypoints visited + 2 waypoints classified as unreachable.
+
+---
+
+### 3. Mid-Row Rover Failure
+
+[View simulation video](ROS2_Videos/Rover_failure.mp4)
+
+One rover is intentionally stopped while operating inside a crop row. Its active row claim expires after the failure, releasing the unfinished assignment for the remaining robots. The other rovers then continue coverage and recover the interrupted work.
+
+**Result:** 98/98 mission waypoints visited.
+
+---
+
+## Simulation Summary
+
+| Scenario | Coverage Outcome | Demonstrated Response |
+| --- | --- | --- |
+| **Nominal** | 98/98 visited | Row conflicts resolved and helper rover completes remaining coverage |
+| **Two in-row obstacles** | 96 visited + 2 unreachable | Opposite-side re-entry recovers all reachable waypoints |
+| **Rover failure** | 98/98 visited | Failed rover's work is released and completed by teammates |
+
+These simulations demonstrate the progression of MACP from a discrete multi-agent coverage framework toward execution by independently navigating agricultural rovers.
+
+---
+
+
+
+
 ## ROS 2 Multi-Robot Simulation
 
 ### Coverage with Static Obstacles
