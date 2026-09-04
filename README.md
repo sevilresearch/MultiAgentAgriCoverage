@@ -21,7 +21,7 @@ The original discrete MACP formulation assumes simplified agent motion and state
 
 ![Challenges introduced by independently navigating rovers](ROS2_Figures/Fig1b_RoboticExecutionChallenges.png)
 
-**Fig. 1b — Challenges introduced by independently navigating rovers.**
+**Challenges introduced by independently navigating rovers.**
 
 These include:
 
