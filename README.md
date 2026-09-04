@@ -2,7 +2,7 @@
 
 This repository contains the simulation framework and analysis code for:  
 **"Multi-Agent Coverage for Agricultural Robotics-Based Soil and Crops Monitoring"**  
-Designed and implemented by [Bhaavin Jogeshwar](mailto:bj83@students.uwf.edu)
+Designed and implemented by [Bhaavin Kishore Jogeshwar](mailto:bj83@students.uwf.edu)
 
 
 ## ROS 2 Multi-Robot Extension
